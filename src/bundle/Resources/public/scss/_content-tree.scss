@@ -14,6 +14,7 @@
         background: $ibexa-color-white;
         color: inherit;
         box-shadow: calculateRem(4px) calculateRem(22px) calculateRem(47px) 0 rgba($ibexa-color-info, 0.05);
+        z-index: 1000;
 
         &__root {
             position: -webkit-sticky;

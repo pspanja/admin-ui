@@ -44,7 +44,7 @@ const ContentCreateWidget = ({
         setFilterQuery(query);
     };
     const updateSelectedLanguage = (value) => setSelectedLanguage(value);
-    const isConfirmDisabled = !selectedContentType || !selectedLanguage || parentLocation.parentLocationId === 1;
+    const isConfirmDisabled = !selectedContentType || !selectedLanguage || parentLocation?.parentLocationId === 1;
     const createContentLabel = Translator.trans(/*@Desc("Create new content")*/ 'create_content.label', {}, 'universal_discovery_widget');
     const selectLanguageLabel = Translator.trans(
         /*@Desc("Select a language")*/ 'create_content.select_language',
